@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <form>
+        <p><h1><b>Student Details</h1></p>
+        <label for="User-Name">Name:</label><br>
+        <input type="text"placeholder="Enter your Name"
+        id="User-Name"name="User-Name"required>
+        <br>
+        <br>
+        <label for="Phone No">Phone Number:</label><br>
+        <input type="text"id="Phone No"name="Phone No"pattern="[6-9]{1}{0-9}">
+        <br>
+        <br>
+        <label for="User-Email">Email-Id:</label><br>
+        <input type="text"id="User-Email"name="User-Email"pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br>
+        <br>
+        <label for="Password">Password:</label><br>
+        <input type="Password"id="Pass"name="Pass"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Atleast number,Uppercase,Lowercase,and Special characters"><br>
+        <br>
+        
+        <label for="Aadhaar">Aadhaar card Number:</label><br>
+        <br>
+        <input type="text"placeholder=""id="Aadhaar" name="Aadhaar"required><br>
+        <br>
+        <label for="DOB">Date Of Birth:</label><br>
+        <br>
+        <input type="Date" id="DOB" name="DOB"><br>
+       <br>
+        <label for="Pan">Pan Card Number:</label><br>
+        <input type="text"id="Pan"name="Pan"><br>
+        <br>
+        <label for="age">Age:</label><br>
+        <select Id="age"name="age">
+            <option value="1">Above the age of 18 </option>
+            <option value="2">Below the age of 18</option>
+        </select><br>
+        <br>
+        <button type="Submit">Submit</button>
+        
+    </form>
+</body>
+</html>
